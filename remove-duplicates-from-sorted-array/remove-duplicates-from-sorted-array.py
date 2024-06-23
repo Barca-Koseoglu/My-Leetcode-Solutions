@@ -10,4 +10,3 @@ class Solution(object):
                 del nums[i-count-1]
                 count += 1
         return len(nums)
-        
