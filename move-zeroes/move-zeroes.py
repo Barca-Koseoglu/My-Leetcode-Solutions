@@ -8,4 +8,3 @@ class Solution(object):
         for i in range(amount):
             nums.remove(0)
         nums.extend([0]*amount)
-        print(nums)
