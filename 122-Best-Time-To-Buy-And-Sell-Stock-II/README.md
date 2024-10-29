@@ -35,3 +35,6 @@ Constraints:
 
 	1 <= prices.length <= 3 * 104
 	0 <= prices[i] <= 104
+
+Solution Explanation:
+It took me a while to get this solution. At first, I thought of finding the maximum and minimum values and subtracting them, but later I realized that was the solution to the first question. After thinking about it, I figured out that if i buy and sell every time a profit was to be made, I could get the answer. It reminds me of a greedy algorithm. So what I did was enumerate thtough the list and whenever the number in front of the current number is bigger than it, I just subtracted them and added the value to my return variable, total.
