@@ -45,7 +45,7 @@ Constraints:
 Follow up: Recursive solution is trivial, could you do it iteratively?
 
 # Thoughts:
-Trees are my second favorite data structure next to hash maps. For the recursive solution of in-order traversal, we start at the root node, add the value into our return array, then check if the left child exists **first**. If it does, we 
+Trees are my second favorite data structure next to hash maps. For the recursive solution of pre-order traversal, we start at the root node, add the value into our return array, then check if the left child exists **first**. If it does, we 
 run recursively run the function again with node.left being our root node. After encountering a root with node.left == None, we check the right node and recursively go down that path. Once everything is finished, we exit the function and 
 return our array of values. For he iterative solution, we obviously can't use a for loop so we would use a while loop. We also need a stack to store the nodes we need to visit. We start with stack = [root]. We remove the rightmost node 
 and append the value to our array. We also have to put the right and left children of the node onto our stack, in that order. If the it doesn't have a child or children, don't append anything onto the stack. Once we go through all the 
