@@ -2,7 +2,7 @@ URL: https://leetcode.com/problems/majority-element-ii/description/
 
 # 229. Majority Element II
 
-### Complexities: O(n) space and time for dictionary solutions, O(1) for space and O(1) for time for the Boyer-Moore Algorithm solution
+### Complexities: O(n) space and time for dictionary solution, O(1) for space and O(1) for time for the Boyer-Moore Algorithm solution
 
 Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
 
