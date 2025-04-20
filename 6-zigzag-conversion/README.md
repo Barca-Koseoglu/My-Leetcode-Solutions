@@ -46,6 +46,6 @@ Constraints:
 
 # Thoughts
 
-I avoided this problem for a very long time, ainly because the question desription was very complicated and scary-looking. After checking it out again, though, it's just using a list of strings to store the rows and concatenating the 
+I avoided this problem for a very long time, mainly because the question desription was very complicated and scary-looking. After checking it out again, though, it's just using a list of strings to store the rows and concatenating the 
 letters one by one, 'turning around' when you get to one end or another using a true or false variable and determining where it goes using a pointer. I overcomplicated this for a while using the modulus operator but in reality it's a very 
 simple problem.
